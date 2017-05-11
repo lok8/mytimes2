@@ -8,6 +8,10 @@ span {
   background-color: lavender;
 }
 
+body {
+  margin: 0px;
+}
+
 /* Header Content Container */
 
 header {
@@ -66,32 +70,47 @@ nav span {
   width: 240px;
 }
 
-.grid {
-  flex-direction: column;
+/* Story Grid Containers */
+.story-grid {
+  display: flex;
+  justify-content: space-between;
 }
+
+.story-column {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+/* Single-Story Column Containers */
+
 
 /* Main Content Image Banner Styles */
 .image-banner {
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
   background-color: mediumAquamarine;
   font-family: Georgia;
   font-weight: bold;
   font-size: 30px;
   color: white;
+  height: 300px;
+  align-content: center;
 }
-
 
 /* Image Banner Content */
 .image-banner.tuna {
   font-size: 40px;
-  background-image: url();
+  background-image: url(./images/img-story-main.png);
 }
 
 .image-banner.earth {
-  background-image: url();
+  background-image: url(./images/img-story-2-earth.png);
 }
 
 .image-banner.memory {
-  background-image: url();
+  background-image: url(./images/img-story-3-memory.png);
 }
 
 /* Main Content Article Text Styles */
