@@ -8,6 +8,8 @@ span {
   background-color: lavender;
 }
 
+/* Header Content Container */
+
 header {
   display: flex;
   align-items: center;
@@ -40,3 +42,56 @@ nav span {
   display: inline-block;
   padding: 20px 10px;
 }
+
+/* Main Content Containers */
+
+.content {
+  display: flex;
+  padding-top: 100px;
+}
+
+.column.large {
+  display: flex;
+  flex-direction: column;
+  width: 630px;
+}
+
+.column.medium {
+  display: flex;
+  width: 300px;
+}
+
+.column.small {
+  display: flex;
+  width: 240px;
+}
+
+.grid {
+  flex-direction: column;
+}
+
+/* Main Content Image Banner Styles */
+.image-banner {
+  background-color: mediumAquamarine;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+
+/* Image Banner Content */
+.image-banner.tuna {
+  font-size: 40px;
+  background-image: url();
+}
+
+.image-banner.earth {
+  background-image: url();
+}
+
+.image-banner.memory {
+  background-image: url();
+}
+
+/* Main Content Article Text Styles */
