@@ -5,7 +5,7 @@ nav,
 div,
 span {
   border: 1px solid lightgray;
-  background-color: lavender;
+  /* background-color: lavender; */
 }
 
 body {
@@ -111,6 +111,10 @@ nav span {
 
 .image-banner.memory {
   background-image: url(./images/img-story-3-memory.png);
+}
+
+.image-banner.cat {
+  background-image: url(./images/img-story-1-cats.png);
 }
 
 /* Main Content Article Text Styles */
